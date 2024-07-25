@@ -1,0 +1,139 @@
+
+body{
+  margin: 0;
+}
+.col {
+  padding-left: 20px;
+}
+.input{
+  border-radius: 2px;
+  background: #fff;
+  width:100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(225, 225, 225);
+  outline:none;
+  padding: 8px;
+  box-shadow: rgb(225, 225, 225) 0px 1px 1px 0px;
+}
+.input:focus{
+  border:1px solid #56b4ef;
+  box-shadow: 0px 0px 3px 1px #c8def0;
+}
+.checkbox{
+  height: 20px;
+  width: 20px;
+  accent-color: green;
+}
+.dot {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.bg-green{
+  background-color: #4CAF50;
+}
+.bg-red{
+  background-color: #EC5937;
+}
+.select{
+  border-radius: 2px;
+  background: #fff;
+  width:100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(225, 225, 225);
+  outline:none;
+  padding: 8px;
+  box-shadow: rgb(225, 225, 225) 0px 1px 1px 0px;
+}
+.select:focus{
+  border:1px solid #56b4ef;
+  box-shadow: 0px 0px 3px 1px #c8def0;
+}
+.button-green {
+  padding: 5px 25px 5px 25px;
+  min-height: 32px;
+  background: #4CAF50;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+.button-green:hover {
+  background: #3b893e;
+  color: #fff;
+  transition: 0.5s;
+}
+.button-green:focus {
+  box-shadow: 0 0 0 3px #4CAF50;
+  background: #3b893e;
+  transition: 0.1s;
+} 
+
+.button-grey {
+  padding: 5px 25px 5px 25px;
+  min-height: 32px;
+  background: #898989;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+.button-grey:hover {
+  background: #ababab;
+  color: #fff;
+  transition: 0.5s;
+}
+.button-grey:focus {
+  box-shadow: 0 0 0 3px #898989;
+  background: #ababab;
+  transition: 0.1s;
+} 
+
+.button-primary {
+  padding: 5px 25px 5px 25px;
+  min-height: 32px;
+  background: #0055ff;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+.button-primary:hover {
+  background: #1a72ff;
+  color: #fff;
+  transition: 0.5s;
+}
+.button-primary:focus {
+  box-shadow: 0 0 0 3px #0055ff;
+  background: #1a72ff;
+  transition: 0.1s;
+} 
+
+.button-red {
+  padding: 5px 25px 5px 25px;
+  min-height: 32px;
+  background: #EC5937;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+.button-red:hover {
+  background: #f4785c;
+  color: #fff;
+  transition: 0.5s;
+}
+.button-red:focus {
+  box-shadow: 0 0 0 3px #EC5937;
+  background: #f4785c;
+  transition: 0.1s;
+} 
